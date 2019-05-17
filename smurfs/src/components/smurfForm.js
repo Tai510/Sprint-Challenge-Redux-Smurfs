@@ -36,7 +36,11 @@ class SmurfForm extends React.Component {
     
       render() {
         return (
+            
           <div className="smurfForm">
+          <div className='header-text'>
+              <h1>Join the Smurf Family</h1>
+          </div>
             <form onSubmit={this.addSmurf}>
             <div>
             <input

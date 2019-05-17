@@ -1,19 +1,57 @@
 .App {
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+body {
+  background-image: url('https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/featured/1033033-sonys-smurfs-lost-village-finds-its-way-blu-ray-july-11.jpg?itok=Gj3VGKXc');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .smurfForm {
-  background-color: red;
-  border: 1px solid black;
+  background-color: #027DFE;
+  border: 1px solid white;
+  width: 600px;
+  margin-left: 30%;
+  height: 250px;
+}
+
+.header-text {
+  color: white;
+}
+
+::placeholder {
+  color: red;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
 }
 
 .button {
   border-radius: 5px;
   background-color: #4DFA20;
+  font-family: 'Luckiest Guy', cursive;
+  height: 30px;
+  color: white;
+
 }
 
 input {
   margin-bottom: 20px;
+  border: 1px solid #027DFE;
+  border-bottom: 1px solid white;
+  height: 20px;
+  background-color: #027DFE;
+}
+
+.smurf-list {
+  background-color: #027DFE;
   border: 1px solid white;
-  border-bottom: 1px solid black;
+  width: 600px;
+  margin-left: 30%;
+  height: 250px;
+  padding-top: 20px;
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 20px;
 }

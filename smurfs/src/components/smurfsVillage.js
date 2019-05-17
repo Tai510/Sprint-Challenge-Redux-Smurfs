@@ -10,9 +10,10 @@ class SmurfVillage extends React.Component {
     render() {
         return (
             <div className='smurf-list'>
+            <div><h1>The Village</h1></div>
              {this.props.smurfs.map(smurf =>
                <div key={smurf.id}>
-                <strong>Name: {smurf.name}</strong>
+                <h3>Name: {smurf.name}</h3>
                 <p>Age: {smurf.age}</p>
                 <p>Height: {smurf.height}</p>
                </div> 
